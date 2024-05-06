@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Management</title>
+  <link rel="stylesheet" href="home.css">
+  <script src="ibm-fsd.js"></script>
+</head>
+<body>
+    <div id="main">
+  <div id="navbar">
+    <h1>IBM Employee Management</h1>
+    <ul>
+      <li><a href="#" >Search Employee By Id</a></li><br />
+      <li><a href="#" >Search Employee By Name</a></li><br />
+      <li><a href="#" >Search Employees</a></li><br />
+      <li><a href="#">Add Employee</a></li><br />
+      <li><a href="#" >Delete Employee</a></li>
+    </ul>
+  </div>
+  <div>
+    <h3>Search Employee By Id:</h3>
+    <input type="text" id="empId" placeholder="Enter ID:" />
+    <button onclick="findEmployeeById()">Search</button>
+    <p id="getEmpById"></p>
+    <div>
+  </div>
+  <div>
+    <h3>Search Employee By Name:</h3>
+    <input type="text" id="searchByNameInput" placeholder="Enter Name:" />
+    <button onclick="findEmployeeByName()">Search</button>
+    <p id="getEmpByName"></p>
+  </div>
+  <div>
+    <h3>Search Employees:</h3>
+    <button onclick="findAllEmployees()">Search All</button>
+    <p id="employeeData"></p>
+  </div>
+  <div>
+    <h3>Add Employee:</h3>
+    <form id="employeeForm">
+      <input type="text" id="employeeName" name="firstName" placeholder="First Name:" /><br />
+      <input type="email" id="employeeMail" name="email" placeholder="Email:" /><br />
+      <input type="number" id="employeeSalary" name="salary" placeholder="Salary:" /><br />
+      <button onclick="addEmployee()" type="submit">Add Employee</button>
+      <div id="message"></div>
+
+
+    </form>
+  </div>
+  <div>
+    <h3>Delete Employee:</h3>
+    <input type="text" id="delEmpId" placeholder="Enter id " />
+    <button onclick="deleteEmployee()">Delete Employee</button>
+    <p id="employeeData"></p>
+
+  </div>
+</div>
+  <div id="employeeData"></div>
+
+</body>
+</html>

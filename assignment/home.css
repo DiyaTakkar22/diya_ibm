@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+#main {
+    width: 100vw;
+    height: 100vh;
+    box-shadow: 0 0 10px 0 #00000033, 0 2px 2px 0 #3636363d;
+    padding: 0;
+}
+#navbar {
+    margin: 0 auto;
+    padding: 20px;
+}
+#navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    list-style-type: none;
+    padding: 5px;
+}
+#navbar h1 {
+    text-align: center;
+    margin: 30px auto;
+}
+#navbar a {
+    padding: 10px 20px;
+    max-width: 400px;
+    margin: auto 0;
+    box-shadow: 0 0 10px 0 #00000033, 0 2px 2px 0 #3636363d;
+    background: #F2F2F2;
+    text-decoration: none;
+}
+#navbar a:hover {
+    background-color: #909DAB;
+}
+#options {
+    position: relative;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 25px;
+    box-shadow: 0 0 10px 0 #00000033, 0 2px 2px 0 #3636363d;
+}
+#options ul {
+    list-style-type: none;
+    padding: 0;
+}
+#options li {
+    margin-bottom: 10px;
+}
+#option1 , #option2, #option3, #option4, #option5{
+    position: relative;
+    max-width: 540px;
+    margin: 0 auto 10px auto;
+    padding: 32px;
+    box-shadow: 0 0 10px 0 #00000033, 0 2px 2px 0 #3636363d;
+}
+label {
+    width: 100px;
+    text-align: left;
+    margin-right: 10px;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    outline: 0;
+    background: #F2F2F2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+button {
+    outline: 0;
+  background: #304C69;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+    cursor: pointer;
+}
+#employeeData {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

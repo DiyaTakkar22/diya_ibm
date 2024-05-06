@@ -1,0 +1,48 @@
+package practice;
+
+//option 1-extending Thread class
+//option 2-implementing runnable class
+
+class Task1 extends Thread{
+	public void run(){  // signature
+		
+		//Task1
+				for(int i=1;i<199;i++) {
+					System.out.print(i+" ");
+				}	
+				System.out.print("\n Task1 done");
+				
+				
+	}
+}
+
+class Task2  implements Runnable{
+	@Override
+	public void run() {
+		//Task 2
+				for(int i=201;i<299;i++) {
+					System.out.print(i+" ");
+				}
+				System.out.print("\n Task2 done");
+	}
+	
+}
+public class ThreadBasicsRunner {
+	public static void main(String[] args) {
+
+
+		Task1 task1=new Task1();  //this code runs in parallel
+		task1.start();
+		
+		
+		
+		
+		//Task 3
+		for(int i=301;i<399;i++) {
+			System.out.print(i+" ");
+		}
+		System.out.print("\n Task3 done");
+		
+	}
+
+}

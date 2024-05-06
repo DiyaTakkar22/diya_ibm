@@ -1,0 +1,14 @@
+package com.ibm.day1;+
+
+public class Basics {
+	public static void main(String[] args) {
+		int stdId=100;
+		String firstName="Diya";
+		String lastName="Takkar";
+		double cgpa=7.26;
+		System.out.println("Name: ",firstName + " " + lastName);
+		System.out.println("cgpa: ", cgpa);
+		
+	}
+
+}

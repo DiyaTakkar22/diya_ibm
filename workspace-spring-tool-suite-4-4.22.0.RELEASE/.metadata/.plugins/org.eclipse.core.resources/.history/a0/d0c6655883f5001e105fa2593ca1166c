@@ -1,0 +1,5 @@
+package com.ibm.day4.gc;
+
+public class GarbageCollection {
+
+}

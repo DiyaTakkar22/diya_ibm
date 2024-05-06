@@ -1,0 +1,9 @@
+package practice;
+
+public class StudentRunner {
+   public static void main(String[] args) {
+	   Student std=new Student();
+	   std.setCollegeName("TIET");
+	   System.out.println(std.getCollegeName());
+   }
+}

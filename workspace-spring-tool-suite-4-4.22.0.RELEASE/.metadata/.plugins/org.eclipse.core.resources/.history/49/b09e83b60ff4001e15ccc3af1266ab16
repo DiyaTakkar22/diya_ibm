@@ -1,0 +1,25 @@
+package practice;
+
+public class ThreadBasicsRunner {
+	public static void main(String[] args) {
+		//Task1
+		for(int i=1;1<199;i++) {
+			System.out.println(i+" ");
+		}	
+		System.out.println("\n Task1 done");
+		
+		//Task 2
+		for(int i=201;1<299;i++) {
+			System.out.println(i+" ");
+		}
+		System.out.println("\n Task2 done");
+		
+		
+		//Task 3
+		for(int i=1;1<199;i++) {
+			System.out.println(i+" ");
+		}
+		
+	}
+
+}

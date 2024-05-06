@@ -1,0 +1,32 @@
+{
+    "employees": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "position": "Software Engineer",
+        "department": "Engineering",
+        "salary": 80000,
+        "email": "john.doe@example.com",
+        "phone": "+1234567890"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "position": "Marketing Manager",
+        "department": "Marketing",
+        "salary": 70000,
+        "email": "jane.smith@example.com",
+        "phone": "+1987654321"
+      },
+      {
+        "id": 3,
+        "name": "Michael Johnson",
+        "position": "Financial Analyst",
+        "department": "Finance",
+        "salary": 75000,
+        "email": "michael.johnson@example.com",
+        "phone": "+1122334455"
+      }
+    ]
+  }
+  
