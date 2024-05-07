@@ -1,0 +1,50 @@
+
+.update-profile-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.update-profile-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.update-profile-container form {
+    margin-top: 20px;
+}
+
+.update-profile-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.update-profile-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.update-profile-container button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.update-profile-container button:hover {
+    background-color: #0056b3;
+}
